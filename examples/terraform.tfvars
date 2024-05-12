@@ -1,7 +1,7 @@
-project_name       = "tf-validate-project"
+project_name       = "tf-cicd-test"
 environment        = "dev"
-source_repo_name   = "terraform-sample-repo"
-source_repo_branch = "main"
+source_repo_name   = "learn-terraform-aws-instance"
+source_repo_branch = "dev"
 create_new_repo    = false
 repo_approvers_arn = "arn:aws:sts::123456789012:assumed-role/CodeCommitReview/*" #Update ARN (IAM Role/User/Group) of Approval Members
 create_new_role    = true
